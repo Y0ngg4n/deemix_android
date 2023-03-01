@@ -10,9 +10,8 @@ It provides you an easy and simple interface to add new Downloads to your Deemix
 This app is totally functionable,but more in a prototyping state.
 
 # Installation
-Go to [Actions](https://github.com/Y0ngg4n/deemix_android/actions/workflows/apk.yaml)
-And select the latest run. 
-There you can download the release-apk at the Artifacts section.
+Go to [Releases](https://github.com/Y0ngg4n/deemix_android/releases)
+And select the latest release and download release-apk from Assets.
 
 ## Getting Started
 
