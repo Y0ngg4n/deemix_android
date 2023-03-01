@@ -27,18 +27,23 @@ class _NavigationState extends State<Navigation> {
     switch (selectedNavigationItem) {
       case NavigationItem.Track:
         selectedWidget = Track();
+        title  = NavigationItem.Track.name;
         break;
       case NavigationItem.Album:
         selectedWidget = Album();
+        title  = NavigationItem.Album.name;
         break;
       case NavigationItem.Artist:
         selectedWidget = Artist();
+        title  = NavigationItem.Artist.name;
         break;
       case NavigationItem.Settings:
         selectedWidget = Settings();
+        title  = NavigationItem.Settings.name;
         break;
       case NavigationItem.Queue:
         selectedWidget = DownloadQueue();
+        title  = NavigationItem.Queue.name;
         break;
     }
     return Scaffold(
